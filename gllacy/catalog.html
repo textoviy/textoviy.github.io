@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/Normalize.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <title>Gllacy</title>
+</head>
+<body>
+ <div class="site-wrapper">
+<div class="container-first clearfix">
+<header class="main-header">
+    <div class="container-two clearfix">
+      <div class="logo">
+        <a href="index.html">
+        <img src="data:image/png;base64,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" alt="gllacy">
+      </a>
+      </div>
+      <nav class="main-menu">
+        <ul class="main-menu-list">
+          <li class="main-menu-item">
+            <a href="#" class="active">Каталог</a>
+            <ul class="sub-menu">
+              <li class="sub-menu-new"><a href="#">Новинки</a></li>
+              <li class=""><a href="#">Сливночное</a></li>
+              <li class=""><a href="#">Щербеты</a></li>
+              <li class=""><a href="#">Фруктовый лед</a></li>
+              <li class="sub-menu-melorin"><a href="#">Мелорин</a></li>
+            </ul>
+          </li>
+          <li class="main-menu-item"><a href="#">Доставка и оплата</a></li>
+          <li class="main-menu-item"><a href="#">О Компании</a></li>
+        </ul>
+      </nav>
+      <div class="user-block">
+        <div class="user-block-menu">
+          <div class="user-block-search">
+            <a href="#"></a>
+            <form action="#" method="post">
+              <input type="search" placeholder="Что ищем?:3">
+            </form>
+          </div>
+          <div class="user-block-login">
+            <a href="#">Вход</a>
+            <form class="clearfix" action="#" method="post">
+              <input type="email" placeholder="Электронная почта">
+              <input type="password" placeholder="Пароль">
+              <button class="btn-red" type="submit">Войти</button>
+              <div class="form-link">
+                <a href="#">Забыли пароль?</a><br>
+                <a href="#">Новая регистрация</a>
+              </div>
+            </form>
+          </div>
+          <div class="user-block-cart"><a href="#">Корзина</a></div>
+        </div>
+        <div class="user-block-contacts">
+          <p>
+            С 10 до 20, ежедневно<br>
+            <span>8 812 450-25-25</span>
+          </p>
+        </div>
+      </div>
+      <div class="bread-crumbs">
+        <a href="index.html" class="">Главная</a>
+        <span>»</span>
+        <a href="" class="">Каталог</a>
+        <span>»</span>
+        <span class="">Сливочное</span>
+      </div>
+    </div>
+  </header>
+  <main class="main-catalog">
+    <div class="container-two clearfix">
+    <h1 class="main-title">Сливочное мороженое</h1>
+    <form method="post" action="" class="catalog-form clearfix">
+      <fieldset class="catalog-form-sorting">
+        <legend for="sorting">Сортировка:</legend>
+        <select name="сортировка" id="sorting">
+          <option value="popularity">По популярности</option>
+          <option value="popularity">Сначала недорогие</option>
+          <option value="popularity">Сначала дорогие</option>
+          <option value="popularity">По жирности</option>
+        </select>
+      </fieldset>
+
+      <fieldset class="catalog-form-range">
+        <legend for="">Цена:</legend>
+        <div class="price-controls">
+          <label for="min-price">
+            <input type="text" id="min-price" value="100 руб.">
+          </label>
+          <label for="max-price">
+            <input type="text" id="max-price" value="500 руб.">
+          </label>
+        </div>
+        <div class="range">
+          <div class="range-controls">
+              <div class="bar">
+              <div class="toggle-min"></div>
+              <div class="toggle-max"></div>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset class="fat-radios">
+        <legend>Жирность:</legend>
+        <input type="radio" name="fat-togggle" id="0%" checked>
+            <label for="0%">0%</label>
+        <input type="radio" name="fat-togggle" id="10%">
+            <label for="10%">до 10%</label>
+        <input type="radio" name="fat-togggle" id="30%">
+            <label for="30%">до 30%</label>
+        <input type="radio" name="fat-togggle" id="40%">
+            <label for="40%">выше 30%</label>
+      </fieldset>
+      <fieldset class="catalog-form-fillers">
+        <legend>Наполнители:</legend>
+              <input type="checkbox" name="filler-toggle" id="choko">
+          <label for="choko">Шоколадные</label>
+              <input type="checkbox" name="filler-toggle" id="sahar">
+          <label for="sahar">сахарные присыпки</label>
+              <input type="checkbox" name="filler-toggle" id="frykt">
+          <label for="frykt">фрукты</label>
+              <input type="checkbox" name="filler-toggle" id="sirop">
+          <label for="sirop">сиропы</label>
+              <input type="checkbox" name="filler-toggle" id="jam">
+          <label for="jam">джемы</label>
+      </fieldset>
+      <input type="submit" name="" value="Применить">
+    </form>
+    <!-- Каталого мороженого-->
+    <div class="ice-creams-catalog clearfix">
+      <div class="ice-cream">
+        <img src="img/1.png" alt="" width="267px"
+        height="267px">
+        <span class="ice-cream-price">310</span>
+          <span class="currency">&#8381;</span>
+            <span>/кг</span>
+              <p>
+                <a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
+              </p>
+              <a class="ice-cream-button">Быстрый просмотр</a>
+      </div>
+      <div class="ice-cream">
+        <img src="img/2.png" alt="" width="267px"
+        height="267px">
+        <span class="ice-cream-price">310</span>
+          <span class="currency">&#8381;</span>
+            <span>/кг</span>
+              <p>
+                <a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
+              </p>
+              <a class="ice-cream-button">Быстрый просмотр</a>
+      </div>
+      <div class="ice-cream">
+        <img src="img/3.png" alt="" width="267px"
+        height="267px">
+        <span class="ice-cream-price">310</span>
+          <span class="currency">&#8381;</span>
+            <span>/кг</span>
+              <p>
+                <a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
+              </p>
+              <a class="ice-cream-button">Быстрый просмотр</a>
+      </div>
+      <div class="ice-cream">
+        <img src="img/4.png" alt="" width="267px"
+        height="267px">
+        <span class="ice-cream-price">310</span>
+          <span class="currency">&#8381;</span>
+            <span>/кг</span>
+              <p>
+                <a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
+              </p>
+              <a class="ice-cream-button">Быстрый просмотр</a>
+      </div>
+      <div class="ice-cream">
+        <img src="img/1.png" alt="" width="267px"
+        height="267px">
+        <span class="ice-cream-price">310</span>
+          <span class="currency">&#8381;</span>
+            <span>/кг</span>
+              <p>
+                <a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
+              </p>
+              <a class="ice-cream-button">Быстрый просмотр</a>
+      </div>
+      <div class="ice-cream">
+        <img src="img/2.png" alt="" width="267px"
+        height="267px">
+        <span class="ice-cream-price">310</span>
+          <span class="currency">&#8381;</span>
+            <span>/кг</span>
+              <p>
+                <a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
+              </p>
+              <a class="ice-cream-button">Быстрый просмотр</a>
+      </div>
+      <div class="ice-cream">
+        <img src="img/3.png" alt="" width="267px"
+        height="267px">
+        <span class="ice-cream-price">310</span>
+          <span class="currency">&#8381;</span>
+            <span>/кг</span>
+              <p>
+                <a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
+              </p>
+              <a class="ice-cream-button">Быстрый просмотр</a>
+      </div>
+      <div class="ice-cream">
+        <img src="img/4.png" alt="" width="267px"
+        height="267px">
+        <span class="ice-cream-price">310</span>
+          <span class="currency">&#8381;</span>
+            <span>/кг</span>
+              <p>
+                <a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
+              </p>
+              <a class="ice-cream-button">Быстрый просмотр</a>
+      </div>
+      <div class="ice-cream">
+        <img src="img/1.png" alt="" width="267px"
+        height="267px">
+        <span class="ice-cream-price">310</span>
+          <span class="currency">&#8381;</span>
+            <span>/кг</span>
+              <p>
+                <a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
+              </p>
+              <a class="ice-cream-button">Быстрый просмотр</a>
+      </div>
+      <div class="ice-cream">
+        <img src="img/2.png" alt="" width="267px"
+        height="267px">
+        <span class="ice-cream-price">310</span>
+          <span class="currency">&#8381;</span>
+            <span>/кг</span>
+              <p>
+                <a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
+              </p>
+              <a class="ice-cream-button">Быстрый просмотр</a>
+      </div>
+      <div class="ice-cream">
+        <img src="img/3.png" alt="" width="267px"
+        height="267px">
+        <span class="ice-cream-price">310</span>
+          <span class="currency">&#8381;</span>
+            <span>/кг</span>
+              <p>
+                <a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
+              </p>
+              <a class="ice-cream-button">Быстрый просмотр</a>
+      </div>
+      <div class="ice-cream">
+        <img src="img/4.png" alt="" width="267px"
+        height="267px">
+        <span class="ice-cream-price">310</span>
+          <span class="currency">&#8381;</span>
+            <span>/кг</span>
+              <p>
+                <a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
+              </p>
+              <a class="ice-cream-button">Быстрый просмотр</a>
+      </div>
+      <!-- -->
+      <div class="ice-cream">
+        <img src="img/1.png" alt="" width="267px"
+        height="267px">
+        <span class="ice-cream-price">310</span>
+          <span class="currency">&#8381;</span>
+            <span>/кг</span>
+              <p>
+                <a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
+              </p>
+              <a class="ice-cream-button">Быстрый просмотр</a>
+      </div>
+      <div class="ice-cream">
+        <img src="img/2.png" alt="" width="267px"
+        height="267px">
+        <span class="ice-cream-price">310</span>
+          <span class="currency">&#8381;</span>
+            <span>/кг</span>
+              <p>
+                <a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
+              </p>
+              <a class="ice-cream-button">Быстрый просмотр</a>
+      </div>
+      <div class="ice-cream">
+        <img src="img/3.png" alt="" width="267px"
+        height="267px">
+        <span class="ice-cream-price">310</span>
+          <span class="currency">&#8381;</span>
+            <span>/кг</span>
+              <p>
+                <a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
+              </p>
+              <a class="ice-cream-button">Быстрый просмотр</a>
+      </div>
+      <div class="ice-cream">
+        <img src="img/4.png" alt="" width="267px"
+        height="267px">
+        <span class="ice-cream-price">310</span>
+          <span class="currency">&#8381;</span>
+            <span>/кг</span>
+              <p>
+                <a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
+              </p>
+              <a class="ice-cream-button">Быстрый просмотр</a>
+      </div>
+
+    </div>
+    <div class="paginator">
+      <a href="#" class="prev">prev</a>
+      <a href="#">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">5</a>
+      <a href="#" class="next">next</a>
+    </div>
+  </div> <!-- <div class="container-two clearfix"> -->
+  </main>
+  <footer  class="clearfix">
+    <div class="container-two">
+    <div class="social-block">
+      <div class="social-button social-twitter"></div>
+      <div class="social-button social-instagram"></div>
+      <div class="social-button social-facebook"></div>
+      <div class="social-button social-vk"></div>
+    </div>
+    <div class="product-list">
+      <div class="product-list-left">
+        <div class="product"><a href="#">Для поставщиков</a></div>
+        <div class="product"><a href="#">О производстве</a></div>
+      </div>
+      <div class="product-list-right">
+        <div class="product"><a href="#">Наши документы</a></div>
+        <div class="product"><a href="#">Экологические стандарты</a></div>
+      </div>
+    </div>
+    </div>
+  </footer>
+</body>
+</html>

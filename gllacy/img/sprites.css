@@ -1,0 +1,28 @@
+.ВК, .Инста, .Твитер, .ФБ{
+	background: url(sprites.png) no-repeat;
+}
+
+.ВК{
+	background-position: 0 0;
+	width: 32px;
+	height: 32px;
+}
+
+.Инста{
+	background-position: -88px -65px ;
+	width: 32px;
+	height: 32px;
+}
+
+.Твитер{
+	background-position: -87px 0;
+	width: 33px;
+	height: 32px;
+}
+
+.ФБ{
+	background-position: 0 -65px ;
+	width: 32px;
+	height: 32px;
+}
+

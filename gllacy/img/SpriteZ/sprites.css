@@ -1,0 +1,28 @@
+.Градусник, .Корова, .Листик, .Мороженко{
+	background: url(sprites.png) no-repeat;
+}
+
+.Градусник{
+	background-position: 0 0;
+	width: 48px;
+	height: 49px;
+}
+
+.Корова{
+	background-position: -51px 0;
+	width: 48px;
+	height: 49px;
+}
+
+.Листик{
+	background-position: -101px 0;
+	width: 49px;
+	height: 49px;
+}
+
+.Мороженко{
+	background-position: -151px 0;
+	width: 49px;
+	height: 49px;
+}
+
