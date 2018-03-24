@@ -467,8 +467,8 @@ body > input[type="radio"] {
   width: 100%;
   background-repeat: no-repeat;
   background-position: top center;
-  -webkit-transition: background-image 3s ease, background-color 3s ease;
-  transition: background-image 3s ease, background-color 3s ease;
+  -webkit-transition: background-image 0.5s ease, background-color 0.5s ease;
+  transition: background-image 0.5s ease, background-color 0.5s ease;
 }
 
 
@@ -687,6 +687,7 @@ body > input[type="radio"] {
 }
 
 .best-ice-cream > p > a {
+	color: #ffffff;
   -webkit-transition: .1s;
   transition: .1s;
 }
@@ -1697,6 +1698,7 @@ label[for="min-price"]::after {
 }
 
 .ice-cream > p > a {
+	color: #ffffff;
   -webkit-transition: .1s;
   transition: .1s;
 }
