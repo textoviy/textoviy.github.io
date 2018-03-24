@@ -4,6 +4,10 @@ body {
     background-color: #EDEEF0;
 }
 
+img {
+    max-width: 100%; 
+}
+
 .clearfix::after {
     content: "";
     clear: both;
@@ -11,7 +15,7 @@ body {
 }
 
 .main__item {
-    width: 360px;
+    max-width: 360px;
     height: 350px;
     background-color: #ffffff;
     color: #000000;
@@ -19,6 +23,7 @@ body {
     vertical-align: middle;
     float: left;
     border-radius: 15px;
+     margin-top: 40px;
 
 
     webkit-box-shadow: 0 0.125em 0.125em 0 rgba(0,0,0,0.125);
@@ -76,7 +81,7 @@ body {
     .main__item {
         width: 300px;
         height: 290px;
-        margin-top: 20px;
+       
         margin-left: 1px;
         margin-right: 1px;
     }
@@ -96,16 +101,18 @@ body {
     }
 }
 
-@media (min-width: 760px) {
+@media (min-width: 800px) {
 
     .main__item {
         width: 360px;
         height: 350px;
         float: left;
-        margin-right: 20px;
-
+        margin-right: 40px;
     }
 
+    .main__item:last-child {
+        margin-right: 0px;
+    }
 
     .main__item img {
         height: 270px;
@@ -113,7 +120,35 @@ body {
     }
 
     .main {
-        width: 760px;
+        width: 802px;
+    }
+
+    .main__item a {
+        width: 360px;
+    }
+
+
+
+@media (min-width: 1160px) {
+
+    .main__item {
+        width: 360px;
+        height: 350px;
+        float: left;
+        margin-right: 40px;
+    }
+
+    .main__item:last-child {
+        margin-right: 0px;
+    }
+
+    .main__item img {
+        height: 270px;
+        width: 360px;
+    }
+
+    .main {
+        width: 1160px;
     }
 
     .main__item a {
