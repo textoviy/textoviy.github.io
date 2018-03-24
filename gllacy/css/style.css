@@ -7,8 +7,8 @@ body {
 }
 
 .btn,
-input {
-  outline: none;
+input:focus {
+  outline:1px solid #7FA9EE;
 }
 
 fieldset {
@@ -965,6 +965,10 @@ body > input[type="radio"] {
   margin: 0px 15px 0px 15px;
 }
 
+.mail-index input[type="email"]:focus {
+ /* outline: 1px solid blue;*/
+}
+
 .mail-index-button {
   display: inline-block;
   vertical-align: top;
@@ -981,7 +985,7 @@ body > input[type="radio"] {
   text-shadow: 0 2px 5px rgba(160,32,11,.76);
   cursor: pointer;
   text-align: center;
-  outline: none;
+  /*outline: none;*/
   border: none;
 }
 
@@ -991,11 +995,15 @@ body > input[type="radio"] {
   -webkit-box-shadow: inset 0 2px 2px 0 #9b3527;
           box-shadow: inset 0 2px 2px 0 #9b3527;
 
+
 }
+
+
 
 .mail-index-button:hover {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#f48a6f), to(#ec6f5e));
-  background-image: linear-gradient(to bottom, #f48a6f, #ec6f5e)
+  background-image: linear-gradient(to bottom, #f48a6f, #ec6f5e);
+  
 }
 
 /*Футер*/
