@@ -16,7 +16,7 @@ img {
 
 .main__item {
     max-width: 360px;
-    height: 350px;
+  
     background-color: #ffffff;
     color: #000000;
     text-align: center;
@@ -36,7 +36,7 @@ img {
 
 .main__item a {
      display: block;
-     font-size: 64px;
+     font-size: 36px;
      line-height: 64px;
      text-decoration: none;
      color: #000;
@@ -67,7 +67,7 @@ img {
 .main h1 {
     font-family: 'Work Sans', sans-serif;
     font-size: 48px;
-    margin-left: -20px;
+    
 }
 
 .main__item img {
@@ -80,7 +80,7 @@ img {
 @media (max-width: 799px) {
     .main__item {
         width: 300px;
-        height: 290px;
+       
        
         margin-left: 1px;
         margin-right: 1px;
@@ -96,7 +96,7 @@ img {
     }
 
     .main__item a:nth-child(2) {
-        font-size: 48px;
+        font-size: 36px;
         height: 73px;
     }
 }
@@ -105,7 +105,7 @@ img {
 
     .main__item {
         width: 360px;
-        height: 350px;
+       
         float: left;
         margin-right: 40px;
     }
@@ -133,12 +133,12 @@ img {
 
     .main__item {
         width: 360px;
-        height: 350px;
+       
         float: left;
         margin-right: 40px;
     }
 
-    .main__item:last-child {
+    .main__item:nth-child(3n - 2) {
         margin-right: 0px;
     }
 
